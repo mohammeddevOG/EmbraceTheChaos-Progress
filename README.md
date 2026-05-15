@@ -1,15 +1,15 @@
-# 👻 ProjectChaos — Dev Progress
-# سجل تطوير بروجكت كيوس
+# 👻 Embrace the Chaos — عناق الفوضى
+# سجل تطوير اللعبة
 
-> **Game Name / اسم اللعبة:** `Embrace The Choas`
-> **Inspired By / مستوحى من:** `Backrooms and FROM TV SHOW`
+> **Game Name / اسم اللعبة:** `Embrace the Chaos — عناق الفوضى`
 > **Engine:** `Unreal Engine 5.6`
 > **Genre:** `Horror · Multiplayer`
-> **Network:** `Online — Advanced Sessions Plugin`
-> **Source Control / تحكم المصدر:** `Diversion (Game Files) · GitHub (Progress)`
+> **Network:** `Online — Advanced Sessions Plugin · Steam`
+> **Source Control:** `Diversion (Game Files) · GitHub (Progress)`
 > **Team:** `Mohammed — Dev 👨‍💻` · `Abdullah — Map Designer 🎨`
+> **Steam:** `✅ Live on Steam — tested`
 > **Started / البدء:** `2025`
-> **Target / الهدف:** `[30/07/2026]`
+> **Target / الهدف:** `[30/07/2025]`
 
 ---
 
@@ -19,12 +19,17 @@
 |---|---|---|---|
 | Core Programming / البرمجة | 👨‍💻 Mohammed | 🟡 In Progress | `██████░░░░ 60%` |
 | Multiplayer / الشبكة | 👨‍💻 Mohammed | 🟡 In Progress | `███████░░░ 70%` |
-| Monster AI / الذكاء الاصطناعي | 👨‍💻 Mohammed | ⬜ Not Started | `░░░░░░░░░░ 0%` |
 | UI / الواجهة | 👨‍💻 Mohammed | 🟡 In Progress | `██████░░░░ 60%` |
-| Maps & Environments / الخرائط | 🎨 Abdullah | 🟡 In Progress | `███░░░░░░░ 30%` |
-| Lighting & Atmosphere / الجو | 🎨 Abdullah | 🟡 In Progress | `██░░░░░░░░ 20%` |
+| Level 0: The Meetings | 🎨 Abdullah | 🟡 In Progress | `████████░░ 80%` |
+| Level 1: Astray | 🎨 Abdullah | 🟡 In Progress | `████████░░ 80%` |
+| Level 2: FROM | 🎨 Abdullah | 🟡 In Progress | `████████░░ 80%` |
+| Level 3: The Cave | 🎨 Abdullah | 🟡 In Progress | `████████░░ 80%` |
+| Level 4: Sewers | 🎨 Abdullah | 🟡 In Progress | `████████░░ 80%` |
+| Puzzle Connection / ربط الألغاز | 👥 Both | ⬜ Not Started | `░░░░░░░░░░ 0%` |
+| Level Progression / تسلسل المراحل | 👥 Both | ⬜ Not Started | `░░░░░░░░░░ 0%` |
 | Audio / الصوت | 👥 Both | ⬜ Not Started | `░░░░░░░░░░ 0%` |
-| Testing & Release / الاختبار | 👥 Both | ⬜ Not Started | `░░░░░░░░░░ 0%` |
+| Bug Fixes / إصلاح الأخطاء | 👥 Both | 🟡 In Progress | `███░░░░░░░ 30%` |
+| Testing & Release / الاختبار | 👥 Both | 🟡 In Progress | `██░░░░░░░░ 20%` |
 
 > `✅ Done` · `🟡 In Progress` · `⬜ Not Started` · `🔴 Blocked`
 
@@ -34,32 +39,48 @@
 
 | # | Milestone / الهدف | Deadline | Status |
 |---|---|---|---|
-| 1 | GameInstance Complete / انتهاء الجيم انستنس | `[Date]` | 🟡 |
-| 2 | First Playable Lobby / لوبي قابل للعب | `[Date]` | ⬜ |
-| 3 | Multiplayer Working End-to-End / شبكة تعمل | `[Date]` | ⬜ |
-| 4 | First Playable Map / أول خريطة قابلة للعب | `[Date]` | ⬜ |
-| 5 | Alpha Build / ألفا | `[Date]` | ⬜ |
-| 6 | Beta Playtest / بيتا | `[Date]` | ⬜ |
+| 1 | Code Review Complete / مراجعة الكود | `[Date]` | 🟡 |
+| 2 | GameInstance Final Wiring / ربط الجيم انستنس | `[Date]` | ⬜ |
+| 3 | All Puzzles Connected / ربط كل الألغاز | `[Date]` | ⬜ |
+| 4 | Level Progression Working / تسلسل المراحل | `[Date]` | ⬜ |
+| 5 | Animation Bug Fixed / إصلاح الأنيميشن | `[Date]` | ⬜ |
+| 6 | Full Multiplayer Test / اختبار كامل | `[Date]` | ⬜ |
 | 7 | Release / الإطلاق 🚀 | `[Date]` | ⬜ |
+
+---
+
+## 🎮 Game Levels — مراحل اللعبة
+
+| # | Level Name | Concept | Monsters | Status | Missing |
+|---|---|---|---|---|---|
+| 0 | **The Meetings** | Backroom yellow aesthetic | TBD | 🟡 Nearly Done | Puzzle connection |
+| 1 | **Astray** | Backrooms + puzzles + multiple monsters | Multiple | 🟡 Nearly Done | Puzzle connection |
+| 2 | **FROM** | Open world trapped town (FROM inspired) | 1 | 🟡 Nearly Done | Puzzle connection |
+| 3 | **The Cave** | Underground cave level | TBD | 🟡 Nearly Done | Puzzle connection |
+| 4 | **Sewers** | Large sewer level — 2 monsters | 2 | 🟡 Nearly Done | Puzzle connection |
 
 ---
 
 ## 🩸 Concept — الفكرة
 
 ```
-Multiplayer horror game inspired by the TV show FROM.
-Players are trapped in a mysterious town with no way out.
-Survivors must complete objectives while a monster hunts them.
+Embrace the Chaos / عناق الفوضى is a multiplayer horror game
+where players progress through 5 unique levels, each with its
+own atmosphere, puzzles, and monsters.
 
-لعبة رعب متعددة اللاعبين مستوحاة من مسلسل FROM.
-اللاعبون محاصرون في بلدة غامضة لا مخرج منها.
-الناجون يجب أن يكملوا المهام بينما الوحش يطاردهم.
+From the unsettling yellow rooms of The Meetings to the vast
+open town of FROM and the dark depths of the Sewers —
+no level feels the same.
+
+عناق الفوضى لعبة رعب متعددة اللاعبين تمر عبر 5 مراحل فريدة،
+كل مرحلة لها جوها وألغازها ووحوشها الخاصة.
 ```
 
 **Fear Pillars / ركائز الخوف:**
 1. `Isolation / العزلة — players can be separated`
-2. `The Unknown / المجهول — monster not always visible`
-3. `Helplessness / العجز — limited tools and resources`
+2. `The Unknown / المجهول — each level feels different`
+3. `Helplessness / العجز — limited tools, multiple threats`
+4. `Escalation / التصاعد — each level gets harder`
 
 ---
 
@@ -73,94 +94,75 @@ Survivors must complete objectives while a monster hunts them.
 | System | Status | Notes |
 |---|---|---|
 | `BP_ProjectChaosGameInstance` | 🟡 In Progress | Reviewing — needs final wiring |
-| `BP_GameMode_Lobby` | ✅ Done | Referenced in GameInstance |
+| `BP_GameMode_Lobby` | ✅ Done | Referenced and working |
 | `BP_GameMode_Main` | 🟡 In Progress | Needs review |
 | `BP_LobbyGameState` | ✅ Done | ConnectedPlayers array working |
 | `BP_LobbyPlayerState` | ✅ Done | bIsTalking replicated |
-| `PC_Lobby` | 🟡 In Progress | SettingUp function works — needs review |
-| `BP_LobbyManager` | ✅ Done | LobbyCamera referenced in PC |
+| `PC_Lobby` | 🟡 In Progress | SettingUp works — full review pending |
+| `BP_LobbyManager` | ✅ Done | LobbyCamera working |
 
 ### 🌐 Multiplayer / الشبكة
 
 | System | Status | Notes |
 |---|---|---|
 | Create Session / `StartHostSession` | ✅ Done | Password + ServerName + ExtraSettings |
-| Find Sessions / `FindSessions` | ✅ Done | Max 5000 results |
-| Join by Code / `JoinSessionByCode` | ✅ Done | Finds session then password checks |
-| Join by Browser / `Join Session Event` | ✅ Done | Checks password via ExtraSettings |
-| Password Verification / التحقق | ✅ Done | GetSessionPropertyString comparison |
-| Leave Session / `LeaveSession` | ✅ Done | DestroySession → ServerTravel StartUp |
-| Kick Player / `KickAPlayer` | ✅ Done | DestroySession for target PC |
-| Friend Invite / `OnSessionInviteAccepted` | ✅ Done | JoinSession on accept |
-| Session Code Generation | ✅ Done | Stored as ExtraSettings |
-| MoveDataToGS | ✅ Done | Passes ServerName + Code to GameState |
-| Network Error Handler | ✅ Done | Alt+F4 → DestroySession → OpenLevel |
-| Voice Chat State / `OnPlayerTalkingStateChanged` | ✅ Done | bIsTalking set per player in GameState |
-| Server Travel to Lobby | ✅ Done | `/Game/Map/Lobby/Main/Lobby_Main?listen` |
+| Find Sessions / `FindSessions` | ✅ Done | Working |
+| Join by Code / `JoinSessionByCode` | ✅ Done | Password verified via ExtraSettings |
+| Join by Browser / `Join Session Event` | ✅ Done | Working |
+| Password Verification | ✅ Done | GetSessionPropertyString |
+| Leave Session | ✅ Done | DestroySession → ServerTravel |
+| Kick Player | ✅ Done | Working |
+| Friend Invite | ✅ Done | OnSessionInviteAccepted |
+| Voice Chat State | ✅ Done | bIsTalking per player |
+| Network Error Handler | ✅ Done | Alt+F4 handled |
+| Steam Integration | ✅ Done | Live on Steam — tested |
+| Loading Screen | ✅ Done | Auto-removes after travel |
+| Error Message UI | ✅ Done | Custom text, auto-removes |
 
 ### 🟡 GameInstance — Stubs (Not Yet Implemented)
 
-| Function | Status | Notes |
+| Function | Priority | Notes |
 |---|---|---|
-| `GetSelectedCharacter` | 🟡 Stub | Empty — needs character selection logic |
-| `SetServerSettings` | 🟡 Stub | Empty — needs max players / map choice |
-| `LoadSaveData` | 🟡 Stub | Empty — needs save game integration |
-| `ApplyGameSettings` | 🟡 Stub | Empty — needs graphics/audio settings |
+| `GetSelectedCharacter` | 🟡 Medium | Empty stub |
+| `SetServerSettings` | 🟡 Medium | Empty stub |
+| `LoadSaveData` | 🟡 Medium | Empty stub |
+| `ApplyGameSettings` | 🟡 Medium | Empty stub |
 
 ### ❌ Missing in GameInstance
 
 | Feature | Priority | Notes |
 |---|---|---|
-| Player Name storage | 🔴 High | Passed in but never saved to variable |
-| Selected Map storage | 🔴 High | Host picks map — where is it stored? |
-| Max Players exposed | 🟡 Medium | `PublicConnectionsMax` exists but never set from UI |
-| Travel to Gameplay Map | 🔴 High | Travels to Lobby ✅ but not to actual game map |
+| Player Name storage | 🔴 High | Passed in but never saved |
+| Selected Map storage | 🔴 High | Host needs to pick level |
+| Max Players from UI | 🟡 Medium | Variable exists, not set from UI |
+| Travel to Gameplay Map | 🔴 High | Travels to Lobby ✅ not game levels yet |
+| Level Progression Logic | 🔴 High | 0 → 1 → 2 → 3 → 4 flow needed |
 
 ### 🖥️ UI Systems
 
 | Widget | Status | Notes |
 |---|---|---|
-| `WBP_MainWrapper` | 🟡 In Progress | Navigation works — needs compile warnings fixed |
-| `WBP_Start` | 🟡 In Progress | Main menu screen — buttons need GI wiring |
-| `WBP_HostMenu` | 🟡 In Progress | ⚠️ Host button NOT wired to GameInstance yet |
-| `WBP_JoinMenu` | 🟡 In Progress | ⚠️ Join button NOT wired to GameInstance yet |
-| `WBP_Continue` | 🟡 In Progress | Purpose unclear — possibly JoinByCode screen |
-| `WBP_Settings` | 🟡 In Progress | Exists — settings logic not implemented |
+| `WBP_MainWrapper` | 🟡 In Progress | Navigation works — compile warnings pending |
+| `WBP_Start` | 🟡 In Progress | Buttons not wired to GameInstance yet |
+| `WBP_HostMenu` | 🟡 In Progress | ⚠️ Host button NOT wired to GI |
+| `WBP_JoinMenu` | 🟡 In Progress | ⚠️ Join button NOT wired to GI |
+| `WBP_Continue` | 🟡 In Progress | Purpose needs clarifying |
+| `WBP_Settings` | 🟡 In Progress | Exists — logic not implemented |
 | `WBP_Credits` | 🟡 In Progress | Exists — content not added |
-| `WBP_Loading` | ✅ Done | Loading screen with auto-remove |
-| `WBP_ErrorMessage` | ✅ Done | Shows custom error text, auto-removes |
-| `WBP_JoinBySessionCode` | 🟡 In Progress | Referenced — status unclear |
-
-### ⚠️ Known Widget Issues
-
-| Issue | Widget | Fix |
-|---|---|---|
-| ErrorType=1 warning | `WBP_JoinMenu` variable refs | Compile and check |
-| ErrorType=1 warning | `WBP_HostMenu` CreateWidget | Compile and check |
-| ErrorType=1 warning | `WBP_Continue` CreateWidget | Compile and check |
-| ErrorType=1 warning | `SwitchToSettingMenu` event | Compile and check |
-
-### 🤖 Monster AI — الذكاء الاصطناعي
-
-| Feature | Status | Notes |
-|---|---|---|
-| Behavior Tree | ⬜ Not Started | — |
-| Patrol System | ⬜ Not Started | — |
-| Detection (Sight/Sound) | ⬜ Not Started | — |
-| Chase Logic | ⬜ Not Started | — |
-| Attack Logic | ⬜ Not Started | — |
-| Difficulty Scaling | ⬜ Not Started | — |
+| `WBP_Loading` | ✅ Done | Working |
+| `WBP_ErrorMessage` | ✅ Done | Working |
 
 ### 🐛 Known Bugs / الأخطاء
 
-| # | Bug | Severity | Fixed? |
+| # | Bug | Severity | Status |
 |---|---|---|---|
-| 1 | `ProjectCleaner` plugin incompatible with UE5.6 | 🟡 Medium | ⬜ Disable it |
-| 2 | `bodyShapeG_CombinedSkelMesh` material index errors LOD 0-3 | 🟡 Medium | ⬜ Reset material slots |
-| 3 | Road_1 folder has broken redirectors | 🔴 High | 🟡 In Progress |
-| 4 | Character BPs missing GeneratedClass tags (BP_Male01-04, BP_Female01-04) | 🟡 Medium | ⬜ |
-| 5 | `CheckSession` function has compile warning | 🟡 Medium | ⬜ |
-| 6 | `GetSelectedCharacter` event has ErrorType=1 | 🟡 Medium | ⬜ Implement logic |
+| 1 | Character shivering animation on join (client + host side) | 🔴 High | ⬜ Deferred — fix after code review |
+| 2 | Road_1 folder broken redirectors | 🔴 High | 🟡 In Progress |
+| 3 | `ProjectCleaner` incompatible with UE5.6 | 🟡 Medium | ⬜ Disable it |
+| 4 | `bodyShapeG_CombinedSkelMesh` material index errors | 🟡 Medium | ⬜ |
+| 5 | Character BPs missing GeneratedClass tags | 🟡 Medium | ⬜ |
+| 6 | `CheckSession` compile warning | 🟡 Medium | ⬜ |
+| 7 | Multiple compile warnings in WBP widgets | 🟡 Medium | ⬜ Fix during review |
 
 ---
 
@@ -169,63 +171,70 @@ Survivors must complete objectives while a monster hunts them.
 ## 🎨 DESIGNER — تصميم الخرائط
 ### *Owner: Abdullah*
 
-### 🗺️ Maps / الخرائط
+### 🗺️ Level Details
 
-| Map | Inspired By | Blockout | Art Pass | Lighting | Optimized | Done |
-|---|---|---|---|---|---|---|
-| `L_From` | FROM TV Show town | 🟡 | ⬜ | ⬜ | ⬜ | ⬜ |
-| `Lobby_Main` | — | ✅ | 🟡 | 🟡 | ⬜ | ⬜ |
-| `StartUp` | — | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
-
-### 📐 L_From Map — Technical Specs
-
+**Level 0 — The Meetings**
 ```
-Landscape Size:     2017 x 2017
-Section Size:       63 x 63 quads
-Sections/Component: 2 x 2
-Components:         16 x 16 (256 total)
-Scale:              X:100, Y:100, Z:100
-Real World Size:    ~2km x 2km
-Player Cross Time:  ~5.6 min (at 600 cm/s)
-Streaming:          Level Streaming + HLOD
+Aesthetic:   Backroom yellow rooms
+Monsters:    TBD
+Status:      Nearly complete — puzzles need connecting
 ```
 
-### 🗺️ L_From Zone Plan
+**Level 1 — Astray**
+```
+Aesthetic:   Backrooms style — darker, deeper
+Monsters:    Multiple
+Puzzles:     Multiple — need connecting
+Status:      Nearly complete
+```
+
+**Level 2 — FROM**
+```
+Aesthetic:   Open world trapped town (FROM TV show inspired)
+Map Size:    2017 x 2017 landscape (~2km x 2km)
+Monsters:    1
+Streaming:   Level Streaming + HLOD
+Status:      Nearly complete — puzzles need connecting
+```
 
 ```
+Zone Layout:
 ┌─────────────────────────────────┐
 │      🌲 DARK FOREST (North)     │
-│         Monster Territory       │
 ├──────────┬──────────┬───────────┤
 │ 🌲 West  │ 🏘️ TOWN  │ 🌲 East  │
-│  Woods   │  CENTER  │  Forest  │
-│          │  (Open)  │  + Cave  │
+│  Woods   │  CENTER  │  + Cave  │
 ├──────────┴──────────┴───────────┤
 │       🏘️ MAIN TOWN STREET       │
-│      Buildings / Spawn Area     │
 ├─────────────────────────────────┤
-│    🌾 SOUTH FIELDS (Danger)     │
+│       🌾 SOUTH FIELDS           │
 └─────────────────────────────────┘
 ```
 
-### 💡 Lighting & Atmosphere / الإضاءة
+**Level 3 — The Cave**
+```
+Aesthetic:   Underground cave
+Monsters:    TBD
+Status:      Nearly complete — puzzles need connecting
+```
 
-- [ ] Lumen GI configured / إعداد لومن
-- [ ] Volumetric fog / الضباب الحجمي
-- [ ] Dynamic shadows / الظلال الديناميكية
-- [ ] Candles / lanterns / الشموع والفوانيس
-- [ ] Jump scare lighting / إضاءة المفزعات
-- [ ] Post-process color grade / معالجة الألوان
-- [ ] Landscape material fixed (sRGB issue on roughness maps) ⬜
+**Level 4 — Sewers**
+```
+Aesthetic:   Large sewer system
+Monsters:    2 monsters
+Status:      Nearly complete — puzzles need connecting
+```
 
 ### 🧟 Characters & Assets
 
-| Asset | Concept | Modeled | Textured | Rigged | In-Engine |
-|---|---|---|---|---|---|
-| Survivor 1 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
-| Survivor 2 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
-| Monster / الوحش | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
-| techwearOutfit (existing) | ✅ | ✅ | 🟡 | ✅ | 🟡 |
+| Asset | Status | Notes |
+|---|---|---|
+| Survivor Characters | 🟡 In Progress | techwearOutfit exists |
+| Monster Lvl 0-1 | ⬜ | — |
+| Monster Lvl 2 (FROM) | ⬜ | — |
+| Monster Lvl 3 (Cave) | ⬜ | — |
+| Monster Lvl 4-A (Sewers) | ⬜ | — |
+| Monster Lvl 4-B (Sewers) | ⬜ | — |
 
 ---
 
@@ -233,47 +242,40 @@ Streaming:          Level Streaming + HLOD
 
 ## 👥 SHARED — مشترك
 
+### 🔗 Level Progression — تسلسل المراحل
+
+```
+Lobby → Level 0 → Level 1 → Level 2 → Level 3 → Level 4
+         Meetings   Astray     FROM      Cave      Sewers
+```
+
+- [ ] Travel from Lobby → Level 0
+- [ ] Travel Level 0 → Level 1 (on puzzle complete)
+- [ ] Travel Level 1 → Level 2 (on puzzle complete)
+- [ ] Travel Level 2 → Level 3 (on puzzle complete)
+- [ ] Travel Level 3 → Level 4 (on puzzle complete)
+- [ ] Win condition on Level 4 complete
+
 ### 🔊 Audio / الصوت
 
-| Track / Sound | Status | Notes |
-|---|---|---|
-| Main Menu Theme | ⬜ | — |
-| Lobby Music | ⬜ | — |
-| Explore Phase (calm dread) | ⬜ | — |
-| Chase Music | ⬜ | — |
-| Monster Sounds | ⬜ | — |
-| Footsteps | ⬜ | — |
-| Heartbeat (near monster) | ⬜ | — |
-| Ambient / Environment | ⬜ | — |
-| Jump Scare Stingers | ⬜ | — |
-| UI Button Sound | ✅ | `SW_Button` — wired to back button |
-| 3D Spatial Audio | ⬜ | — |
-| Proximity Voice Chat | ✅ | `bUseLobbiesVoiceChatIfAvailable = true` |
+| Track / Sound | Status |
+|---|---|
+| UI Button Sound | ✅ `SW_Button` wired |
+| Proximity Voice Chat | ✅ Enabled |
+| All other audio | ⬜ Not Started |
 
 ### 🧪 Testing / الاختبار
 
 | Test | Status | Notes |
 |---|---|---|
-| NULL subsystem — 2 windows local | ⬜ | Next step after GameInstance complete |
-| NULL subsystem — LAN | ⬜ | — |
-| Steam — 2 PCs | ⬜ | Use SpaceWar AppID 480 for testing |
-| High latency test (200ms+) | ⬜ | — |
-| Disconnect / Alt+F4 handling | ✅ | Handled in GameInstance |
-
-**Playtest Log:**
-
-| Date | Version | Fun /5 | Scary /5 | Notes |
-|---|---|---|---|---|
-| — | — | — | — | — |
-
-### 🚀 Release / الإطلاق
-
-- [ ] Final UE5 shipping build
-- [ ] Dedicated server build
-- [ ] Steam / EOS configured
-- [ ] Store page + trailer
-- [ ] Age rating
-- [ ] Post-launch patch plan
+| Steam — 2 PCs | ✅ Tested | Some issues found (animation) |
+| Animation shiver bug | ⬜ Deferred | Fix after code review |
+| Level 0 MP test | ⬜ | — |
+| Level 1 MP test | ⬜ | — |
+| Level 2 MP test | ⬜ | — |
+| Level 3 MP test | ⬜ | — |
+| Level 4 MP test | ⬜ | — |
+| Full run-through all levels | ⬜ | — |
 
 ---
 
@@ -281,53 +283,46 @@ Streaming:          Level Streaming + HLOD
 
 | Date | Version | Who | Update |
 |---|---|---|---|
-| `2026-05-14` | `v0.1` | Mohammed | Investigated crash from BulkData corruption — cause: loading 327 assets at once after redirector fix |
-| `2026-05-14` | `v0.1` | Mohammed | Identified Road_1 folder as broken redirector source |
-| `2026-05-14` | `v0.1` | Mohammed | Reviewed full GameInstance — session logic ~90% complete |
-| `2026-05-14` | `v0.1` | Mohammed | Reviewed WBP_MainWrapper — navigation system complete, buttons not wired to GI yet |
-| `2026-05-15` | `v0.1` | Mohammed | Full code review day — writing comments, no coding |
+| `2026-05-14` | `v0.1` | Mohammed | Crash from BulkData corruption — 327 assets loaded at once |
+| `2026-05-14` | `v0.1` | Mohammed | Identified Road_1 folder as broken redirectors source |
+| `2026-05-14` | `v0.1` | Mohammed | Full GameInstance review — session logic ~70% wired |
+| `2026-05-14` | `v0.1` | Mohammed | WBP_MainWrapper review — navigation done, buttons not wired |
+| `2026-05-15` | `v0.1` | Mohammed | Full code review day — comments only, no coding |
 
 ---
 
-## 💡 Ideas — أفكار
-
-| Idea | Owner | Priority |
-|---|---|---|
-| Proximity voice chat (players hear each other spatially) | Both | 🔴 High |
-| Monster can hear player voice chat | Mohammed | 🟡 Medium |
-| Session code shown in lobby so friends can join | Mohammed | 🔴 High |
-| Town name never revealed (like FROM) — adds mystery | Both | 🟡 Medium |
-| Jump scare lighting rig per zone | Abdullah | 🟡 Medium |
-
----
-
-## ⚙️ Project Setup Notes
+## ⚙️ Project Setup
 
 ```
-Engine Version:     UE 5.6.1
-Epic Username:      W.O.L.F.Labs
-Project Path:       E:/Creating_Games/Unreal/ProjectChaos/
-Game Instance:      BP_ProjectChaosGameInstance
-Default Map:        StartUp
-Lobby Map:          /Game/Map/Lobby/Main/Lobby_Main
-Gameplay Map:       /Game/Map/StartUp (placeholder)
-Designer Map:       /Game/DESIGN_Abdullah/Map/Main_Mpas/Level_2_From/L_From
+Game Name:      Embrace the Chaos / عناق الفوضى
+Engine:         UE 5.6.1
+Epic Username:  W.O.L.F.Labs
+Project:        E:/Creating_Games/Unreal/ProjectChaos/
+Game Instance:  BP_ProjectChaosGameInstance
+Default Map:    StartUp
+Lobby Map:      /Game/Map/Lobby/Main/Lobby_Main
+Level 0:        [Path]
+Level 1:        [Path]
+Level 2:        /Game/DESIGN_Abdullah/Map/Main_Mpas/Level_2_From/L_From
+Level 3:        [Path]
+Level 4:        [Path]
 
 Plugins:
   ✅ Advanced Sessions
-  ✅ EOS (Epic Online Services)
-  ⚠️ ProjectCleaner — INCOMPATIBLE with 5.6 — DISABLE IT
+  ✅ EOS / Steam
+  ⚠️ ProjectCleaner — DISABLE (incompatible with 5.6)
 ```
 
 ---
 
-## 🔗 Links — الروابط
+## 🔗 Links
 
 | | Link |
 |---|---|
 | 📁 Game Source (Diversion) | `[Diversion URL]` |
 | 📊 Progress (GitHub) | `[GitHub URL]` |
-| 💬 Discord | `[Invite URL]` |
+| 🎮 Steam Page | `[Steam URL]` |
+| 💬 Discord | `[Discord URL]` |
 
 ---
 
@@ -335,13 +330,13 @@ Plugins:
 
 ```
 █████████████████████████████████████
-█  THE TOWN HAS NO NAME.            █
-█  NO ONE KNOWS HOW THEY GOT HERE.  █
-█  NO ONE HAS EVER LEFT.  👁️        █
+█   FIVE LEVELS. ONE WAY IN.        █
+█   NO WAY OUT.                     █
+█   EMBRACE THE CHAOS.  👁️          █
 █████████████████████████████████████
 ```
 
-*Built with fear & Unreal Engine 5.6 — W.O.L.F.Labs*
-*صُنع بالخوف وأنريل إنجن 5.6 — ولف لابز*
+*Embrace the Chaos / عناق الفوضى*
+*Built by W.O.L.F.Labs — UE 5.6*
 
 </div>
