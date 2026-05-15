@@ -39,13 +39,13 @@
 
 | # | Milestone / الهدف | Deadline | Status |
 |---|---|---|---|
-| 1 | Code Review Complete / مراجعة الكود | `[Date]` | 🟡 |
-| 2 | GameInstance Final Wiring / ربط الجيم انستنس | `[Date]` | ⬜ |
-| 3 | All Puzzles Connected / ربط كل الألغاز | `[Date]` | ⬜ |
-| 4 | Level Progression Working / تسلسل المراحل | `[Date]` | ⬜ |
-| 5 | Animation Bug Fixed / إصلاح الأنيميشن | `[Date]` | ⬜ |
-| 6 | Full Multiplayer Test / اختبار كامل | `[Date]` | ⬜ |
-| 7 | Release / الإطلاق 🚀 | `[Date]` | ⬜ |
+| 1 | Code Review Complete / مراجعة الكود | `[16/05/2025]` | 🟡 |
+| 2 | GameInstance Final Wiring / ربط الجيم انستنس | `[17/05/2025]` | ⬜ |
+| 3 | All Puzzles Connected / ربط كل الألغاز | `[30/05/2025]` | ⬜ |
+| 4 | Level Progression Working / تسلسل المراحل | `[30/05/2025]` | ⬜ |
+| 5 | Animation Bug Fixed / إصلاح الأنيميشن | `[30/05/2025]` | ⬜ |
+| 6 | Full Multiplayer Test / اختبار كامل | `[15/06/2025]` | ⬜ |
+| 7 | Release / الإطلاق 🚀 | `[30/06/2025]` | ⬜ |
 
 ---
 
@@ -191,8 +191,8 @@ Status:      Nearly complete
 **Level 2 — FROM**
 ```
 Aesthetic:   Open world trapped town (FROM TV show inspired)
-Map Size:    2017 x 2017 landscape (~2km x 2km)
-Monsters:    1
+Map Size:    12 x 12
+Monsters:    6 Slow Creature per Player + 2 Main Creatures are player speed
 Streaming:   Level Streaming + HLOD
 Status:      Nearly complete — puzzles need connecting
 ```
@@ -287,7 +287,7 @@ Lobby → Level 0 → Level 1 → Level 2 → Level 3 → Level 4
 | `2026-05-14` | `v0.1` | Mohammed | Identified Road_1 folder as broken redirectors source |
 | `2026-05-14` | `v0.1` | Mohammed | Full GameInstance review — session logic ~70% wired |
 | `2026-05-14` | `v0.1` | Mohammed | WBP_MainWrapper review — navigation done, buttons not wired |
-| `2026-05-15` | `v0.1` | Mohammed | Full code review day — comments only, no coding |
+| `2026-05-15` | `v0.1` | Mohammed | Full code review day — comments only, no coding - 🟡 In Progress |
 
 ---
 
@@ -300,17 +300,17 @@ Epic Username:  W.O.L.F.Labs
 Project:        E:/Creating_Games/Unreal/ProjectChaos/
 Game Instance:  BP_ProjectChaosGameInstance
 Default Map:    StartUp
-Lobby Map:      /Game/Map/Lobby/Main/Lobby_Main
-Level 0:        [Path]
-Level 1:        [Path]
+Lobby Map:      /Game/DESIGN_Abdullah/Map/Lobby/Main/Lobby_Main.Lobby_Main
+Level 0:        /Game/DESIGN_Abdullah/Map/Main_Mpas/Level_0_TheMeeting/Level_01.Level_01
+Level 1:        /Game/DESIGN_Abdullah/Map/Main_Mpas/Level_1_Backrooms/L_Backrooms.L_Backrooms
 Level 2:        /Game/DESIGN_Abdullah/Map/Main_Mpas/Level_2_From/L_From
-Level 3:        [Path]
-Level 4:        [Path]
+Level 3:        /Game/DESIGN_Abdullah/Map/Main_Mpas/Level_3_Cave/L_Cave_Main.L_Cave_Main
+Level 4:        /Game/DESIGN_Abdullah/Map/Main_Mpas/Level_4_Sewers/L_Sewres.L_Sewres
 
 Plugins:
   ✅ Advanced Sessions
   ✅ EOS / Steam
-  ⚠️ ProjectCleaner — DISABLE (incompatible with 5.6)
+  ✅ ProjectCleaner — DISABLE (incompatible with 5.6)
 ```
 
 ---
@@ -320,9 +320,9 @@ Plugins:
 | | Link |
 |---|---|
 | 📁 Game Source (Diversion) | `[Diversion URL]` |
-| 📊 Progress (GitHub) | `[GitHub URL]` |
-| 🎮 Steam Page | `[Steam URL]` |
-| 💬 Discord | `[Discord URL]` |
+| 📊 Progress (GitHub) | `[[GitHub URL]](https://github.com/mohammeddevOG/ProjectChaos-Progress/)` |
+| 🎮 Steam Page | `[[Steam URL](https://store.steampowered.com/app/3918400/Embrace_the_Chaos/)]` |
+| 💬 Discord | `[Discord URL]` 🟡 In Progress |
 
 ---
 
