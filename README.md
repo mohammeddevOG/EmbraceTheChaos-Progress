@@ -320,8 +320,8 @@ Plugins:
 | | Link |
 |---|---|
 | 📁 Game Source (Diversion) | `[Diversion URL]` |
-| 📊 Progress (GitHub) | `[[GitHub URL]](https://github.com/mohammeddevOG/ProjectChaos-Progress/)` |
-| 🎮 Steam Page | `[[Steam URL](https://store.steampowered.com/app/3918400/Embrace_the_Chaos/)]` |
+| 📊 Progress (GitHub) | `https://github.com/mohammeddevOG/ProjectChaos-Progress/` |
+| 🎮 Steam Page | `https://store.steampowered.com/app/3918400/Embrace_the_Chaos/` |
 | 💬 Discord | `[Discord URL]` 🟡 In Progress |
 
 ---
