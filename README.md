@@ -319,10 +319,10 @@ Plugins:
 
 | | Link |
 |---|---|
-| 📁 Game Source (Diversion) | `[Diversion URL]` |
+| 📁 Game Source (Diversion) | Not Public |
 | 📊 Progress (GitHub) | `https://github.com/mohammeddevOG/ProjectChaos-Progress/` |
 | 🎮 Steam Page | `https://store.steampowered.com/app/3918400/Embrace_the_Chaos/` |
-| 💬 Discord | `[Discord URL]` 🟡 In Progress |
+| 💬 Discord | 🟡 In Progress |
 
 ---
 
