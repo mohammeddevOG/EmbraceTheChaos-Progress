@@ -51,13 +51,13 @@
 
 ## 🎮 Game Levels — مراحل اللعبة
 
-| # | Level Name | Concept | Monsters | Status | Missing |
+| # | Level Name | Concept | Monsters | Status | Missing | What Left
 |---|---|---|---|---|---|
-| 0 | **The Meetings** | Backroom yellow aesthetic | TBD | 🟡 Nearly Done | Puzzle connection |
-| 1 | **Astray** | Backrooms + puzzles + multiple monsters | Multiple | 🟡 Nearly Done | Puzzle connection |
-| 2 | **FROM** | Open world trapped town (FROM inspired) | 1 | 🟡 Nearly Done | Puzzle connection |
-| 3 | **The Cave** | Underground cave level | TBD | 🟡 Nearly Done | Puzzle connection |
-| 4 | **Sewers** | Large sewer level — 2 monsters | 2 | 🟡 Nearly Done | Puzzle connection |
+| 0 | **The Meetings** | Backroom yellow aesthetic | TBD | 🟡 Nearly Done | Puzzle connection | Connecting the elevator to the next level |
+| 1 | **Astray** | Backrooms + puzzles + multiple monsters | Multiple | 🟡 Nearly Done | Puzzle connection | Puzzle Issue
+| 2 | **FROM** | Open world trapped town (FROM inspired) | 1 | 🟡 Nearly Done | Puzzle connection | Puzzle
+| 3 | **The Cave** | Underground cave level | TBD | 🟡 Nearly Done | Puzzle connection | Puzzle
+| 4 | **Sewers** | Large sewer level — 2 monsters | 2 | 🟡 Nearly Done | Puzzle connection | Puzzle
 
 ---
 
