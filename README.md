@@ -53,11 +53,11 @@
 
 | # | Level Name | Concept | Monsters | Status | Missing | What Left
 |---|---|---|---|---|---|
-| 0 | **The Meetings** | Backroom yellow aesthetic | TBD | 🟡 Nearly Done | Puzzle connection | Connecting the elevator to the next level |
-| 1 | **Astray** | Backrooms + puzzles + multiple monsters | Multiple | 🟡 Nearly Done | Puzzle connection | Puzzle Issue
-| 2 | **FROM** | Open world trapped town (FROM inspired) | 1 | 🟡 Nearly Done | Puzzle connection | Puzzle
-| 3 | **The Cave** | Underground cave level | TBD | 🟡 Nearly Done | Puzzle connection | Puzzle
-| 4 | **Sewers** | Large sewer level — 2 monsters | 2 | 🟡 Nearly Done | Puzzle connection | Puzzle
+| 0 | **The Meetings** | Backroom yellow aesthetic | Two of NightMare Creature 4 | 🟡 Nearly Done | Puzzle connection | Connecting the elevator to the next level |
+| 1 | **Astray** | Backrooms + puzzles + multiple monsters | Joker and SCP096  | 🟡 Nearly Done | Puzzle connection | Puzzle Issue
+| 2 | **FROM** | Open world trapped town (FROM inspired) | 6 per player slow + 2 fast const | 🟡 Nearly Done | Puzzle connection | Puzzle
+| 3 | **The Cave** | Underground cave level | One of NightMare and Parasite | 🟡 Nearly Done | Puzzle connection | Puzzle
+| 4 | **Sewers** | Large sewer level — 2 monsters | 1 Brown Maynard + 1 Black | 🟡 Nearly Done | Puzzle connection | Puzzle
 
 ---
 
