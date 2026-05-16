@@ -13,6 +13,45 @@
 
 ---
 
+## 📖 Story — القصة
+
+```
+You wake up.
+
+No memory. No explanation. No way out — at least not yet.
+
+Five places. Each darker than the last.
+Someone — or something — put you here.
+And the only way forward is through.
+
+Alone you won't make it. Together you might.
+But the longer you stay, the worse it gets.
+
+Find the exit. Survive what's hunting you.
+Embrace the chaos — because you have no choice.
+
+استيقظت.
+
+لا ذكريات. لا تفسير. لا مخرج — على الأقل ليس بعد.
+
+خمسة أماكن. كل واحد أظلم من السابق.
+شيء ما — أو شخص ما — وضعك هنا.
+والطريق الوحيد للأمام هو المضي قدمًا.
+
+وحدك لن تنجح. معًا ربما تنجح.
+لكن كلما طال بقاؤك، ازداد الأمر سوءًا.
+
+ابحث عن المخرج. انجُ مما يطاردك.
+عانق الفوضى — لأنه لا خيار لك.
+```
+
+**The Connection Between Levels:**
+- Levels 0 → 1 are physically connected via elevator
+- Levels 1 → 2 → 3 → 4 share the same nightmare logic — different places, same inescapable feeling
+- No lore explanation is given. The horror comes from not knowing why.
+
+---
+
 ## 📊 Overall Progress — التقدم الكلي
 
 | Phase / المرحلة | Owner | Status | Progress |
@@ -51,13 +90,142 @@
 
 ## 🎮 Game Levels — مراحل اللعبة
 
-| # | Level Name | Concept | Monsters | Status | Missing | What Left
-|---|---|---|---|---|---|
-| 0 | **The Meetings** | Backroom yellow aesthetic | Two of NightMare Creature 4 | 🟡 Nearly Done | Puzzle connection | Connecting the elevator to the next level |
-| 1 | **Astray** | Backrooms + puzzles + multiple monsters | Joker and SCP096  | 🟡 Nearly Done | Puzzle connection | Puzzle Issue
-| 2 | **FROM** | Open world trapped town (FROM inspired) | 6 per player slow + 2 fast const | 🟡 Nearly Done | Puzzle connection | Puzzle
-| 3 | **The Cave** | Underground cave level | One of NightMare and Parasite | 🟡 Nearly Done | Puzzle connection | Puzzle
-| 4 | **Sewers** | Large sewer level — 2 monsters | 1 Brown Maynard + 1 Black | 🟡 Nearly Done | Puzzle connection | Puzzle
+| # | Level Name | Concept | Monsters | Status |
+|---|---|---|---|---|
+| 0 | **The Meetings** | Backroom yellow aesthetic | Two NightMare Creatures | 🟡 Nearly Done |
+| 1 | **Astray** | Backrooms + puzzles + multiple monsters | Joker and SCP096 | 🟡 Nearly Done |
+| 2 | **FROM** | Open world trapped town (FROM inspired) | 6 slow + 2 fast per player | 🟡 Nearly Done |
+| 3 | **The Cave** | Underground cave level | NightMare + Parasite | 🟡 Nearly Done |
+| 4 | **Sewers** | Large sewer level | 1 Brown Maynard + 1 Black | 🟡 Nearly Done |
+
+---
+
+## 🧩 Puzzles — الألغاز
+
+---
+
+### Level 0 — The Meetings
+**Puzzle: Lever Activation**
+```
+Scattered across the yellow rooms are levers — one per connected player.
+All levers must be pulled simultaneously (or in sequence) to power the elevator.
+
+The number of levers scales with the number of players in the session.
+Solo run = 1 lever. Full lobby = 4 levers.
+
+This forces players to split up and cover the map — separating them,
+making each one vulnerable, alone in a room with whatever is watching.
+
+The elevator only opens when all levers are active.
+```
+| Detail | Value |
+|---|---|
+| Lever count | = Connected players count |
+| Trigger | All levers active → elevator unlocks |
+| Risk | Players must split — no safety in numbers |
+| Status | ⬜ Not Connected |
+
+---
+
+### Level 1 — Astray
+**Puzzle: Three Gates + Run Sequence**
+```
+The level has three main puzzles that must be solved to unlock the run area.
+Each puzzle opens one gate. All three must be open before the run begins.
+
+Once the run area is unlocked, two final puzzles stand between
+the players and the exit. These must be solved under pressure —
+the monsters don't stop when the run starts.
+
+The run area is a gauntlet. Solve both puzzles. Reach the exit. Don't die.
+```
+| Detail | Value |
+|---|---|
+| Phase 1 | 3 puzzles → unlock run area |
+| Phase 2 | 2 puzzles inside the run area |
+| Trigger | All 5 complete → exit opens |
+| Risk | Phase 2 is under active monster pressure |
+| Status | ⬜ Puzzle issue — connection pending |
+
+---
+
+### Level 2 — FROM
+**Puzzle: Signal Towers (Proposed)**
+```
+Scattered across the open town are 4 signal towers — each broken, each in
+a different zone (North Forest, East, West Woods, Town Center).
+
+Players must find and repair each tower by solving a small interaction
+at the base (e.g. connecting wires, entering a code found nearby).
+
+When all 4 towers are active, a signal is sent — the escape route opens
+at the town's edge. But activating a tower also alerts nearby monsters.
+
+The open-world nature of FROM means players spread out across the map,
+each isolated in their zone, repairing towers while avoiding the 6 slow
+creatures and the 2 fast ones that roam unpredictably.
+```
+| Detail | Value |
+|---|---|
+| Puzzle count | 4 signal towers across the map |
+| Trigger | All 4 active → escape route unlocks |
+| Risk | Activating a tower draws monsters |
+| Status | ⬜ TBD — proposed concept |
+
+> 💡 **Note:** This is a proposed design. Mohammed and Abdullah to confirm or replace.
+
+---
+
+### Level 3 — The Cave
+**Puzzle: Coal Burning (Devour-style)**
+```
+Deep in the cave are ritual fire pits — cold, dark, dead.
+Players must find coal scattered across the cave and carry it
+back to the pits, lighting them one by one.
+
+The darkness of the cave means limited visibility.
+The monsters that live here are drawn to sound and movement.
+Moving fast makes noise. Moving slow wastes time.
+
+When all pits are lit, an ancient mechanism activates —
+a stone door grinds open. The way out is through.
+```
+| Detail | Value |
+|---|---|
+| Mechanic | Find coal → carry → deposit in pit → light |
+| Pit count | TBD (suggested: 3–5 pits) |
+| Trigger | All pits lit → stone door opens |
+| Risk | Darkness + sound detection monsters |
+| Status | ⬜ Concept confirmed — implementation TBD |
+
+> 💡 **Alternative / Addition:** If coal alone feels thin, add a secondary step —
+> players need a torch (found item) to actually light each pit.
+> Torch is shared. Only one exists. Players coordinate who carries it.
+
+---
+
+### Level 4 — Sewers
+**Puzzle: Power Restoration**
+```
+The sewer system is dead — flooded, dark, and alive with something worse.
+Four electrical boxes are spread across different sections of the sewer network.
+Each one needs to be manually switched on.
+
+But the sewer isn't just one path. It's a maze.
+Players need to navigate the network, find each box, flip it —
+then locate the four keys hidden across the level and bring them
+to the central generator to complete the circuit and open the exit gate.
+
+The two monsters in the sewers patrol specific sections.
+Learning their routes is the difference between surviving and not.
+```
+| Detail | Value |
+|---|---|
+| Step 1 | Find and activate 4 electrical boxes |
+| Step 2 | Find 4 keys scattered across the level |
+| Step 3 | Bring all keys to central generator → exit opens |
+| Risk | Maze layout — easy to get lost or cornered |
+| Status | ⬜ Designed — connection pending |
 
 ---
 
@@ -84,8 +252,6 @@ no level feels the same.
 
 ---
 
----
-
 ## 👨‍💻 DEV — البرمجة
 ### *Owner: Mohammed*
 
@@ -93,9 +259,11 @@ no level feels the same.
 
 | System | Status | Notes |
 |---|---|---|
-| `BP_ProjectChaosGameInstance` | 🟡 In Progress | Reviewing — needs final wiring |
+| `GI_EmbraceTheChoas` | 🟡 In Progress | Rebuilt — final wiring pending |
+| `GM_ProjectChaos` | 🟡 In Progress | SpawnPlayerCharacter, PostLogin, OnPlayerDied, CheckWinCondition done |
+| `GS_ProjectChaos` | ✅ Done | Replicated variables set |
+| `PS_ProjectChaos` | 🟡 In Progress | Rebuilt from scratch — wiring pending |
 | `BP_GameMode_Lobby` | ✅ Done | Referenced and working |
-| `BP_GameMode_Main` | 🟡 In Progress | Needs review |
 | `BP_LobbyGameState` | ✅ Done | ConnectedPlayers array working |
 | `BP_LobbyPlayerState` | ✅ Done | bIsTalking replicated |
 | `PC_Lobby` | 🟡 In Progress | SettingUp works — full review pending |
@@ -118,6 +286,7 @@ no level feels the same.
 | Steam Integration | ✅ Done | Live on Steam — tested |
 | Loading Screen | ✅ Done | Auto-removes after travel |
 | Error Message UI | ✅ Done | Custom text, auto-removes |
+| ServerTravel (level progression) | ✅ Done | Via AdvancedSessions plugin |
 
 ### 🟡 GameInstance — Stubs (Not Yet Implemented)
 
@@ -128,15 +297,17 @@ no level feels the same.
 | `LoadSaveData` | 🟡 Medium | Empty stub |
 | `ApplyGameSettings` | 🟡 Medium | Empty stub |
 
-### ❌ Missing in GameInstance
+### ❌ Missing / Pending
 
 | Feature | Priority | Notes |
 |---|---|---|
 | Player Name storage | 🔴 High | Passed in but never saved |
 | Selected Map storage | 🔴 High | Host needs to pick level |
 | Max Players from UI | 🟡 Medium | Variable exists, not set from UI |
-| Travel to Gameplay Map | 🔴 High | Travels to Lobby ✅ not game levels yet |
-| Level Progression Logic | 🔴 High | 0 → 1 → 2 → 3 → 4 flow needed |
+| PS_ProjectChaos Begin Play wiring | 🔴 High | PCRef, PlayerRef, Player_ID setup |
+| Hunt/Help UI (PC_Main) | 🔴 High | Client_ShowHuntOrHelpUI RPC pending |
+| OnPlayerDied → CheckWinCondition link | 🔴 High | Final connection needed |
+| GS variables connected to GM | 🔴 High | PlayersAlive/Escaped not yet driven from GM |
 
 ### 🖥️ UI Systems
 
@@ -166,8 +337,6 @@ no level feels the same.
 
 ---
 
----
-
 ## 🎨 DESIGNER — تصميم الخرائط
 ### *Owner: Abdullah*
 
@@ -175,26 +344,28 @@ no level feels the same.
 
 **Level 0 — The Meetings**
 ```
-Aesthetic:   Backroom yellow rooms
-Monsters:    TBD
-Status:      Nearly complete — puzzles need connecting
+Aesthetic:   Backroom yellow rooms — wrong exits, familiar geometry, wrong
+Monsters:    Two NightMare Creatures
+Puzzle:      Lever activation (scales with player count)
+Status:      Nearly complete — puzzle connection pending
 ```
 
 **Level 1 — Astray**
 ```
-Aesthetic:   Backrooms style — darker, deeper
-Monsters:    Multiple
-Puzzles:     Multiple — need connecting
-Status:      Nearly complete
+Aesthetic:   Backrooms style — darker, deeper, narrower
+Monsters:    Joker + SCP096
+Puzzle:      3 gate puzzles → run area → 2 final puzzles
+Status:      Nearly complete — puzzle issue pending
 ```
 
 **Level 2 — FROM**
 ```
 Aesthetic:   Open world trapped town (FROM TV show inspired)
 Map Size:    12 x 12
-Monsters:    6 Slow Creature per Player + 2 Main Creatures are player speed
+Monsters:    6 Slow Creature per Player + 2 Main Creatures (player speed)
 Streaming:   Level Streaming + HLOD
-Status:      Nearly complete — puzzles need connecting
+Puzzle:      Signal towers (proposed) — TBD
+Status:      Nearly complete — puzzle TBD
 ```
 
 ```
@@ -213,16 +384,18 @@ Zone Layout:
 
 **Level 3 — The Cave**
 ```
-Aesthetic:   Underground cave
-Monsters:    TBD
-Status:      Nearly complete — puzzles need connecting
+Aesthetic:   Underground cave — dark, tight, disorienting
+Monsters:    NightMare Creature + Parasite
+Puzzle:      Coal burning (Devour-style) — find coal, light pits
+Status:      Nearly complete — puzzle implementation TBD
 ```
 
 **Level 4 — Sewers**
 ```
-Aesthetic:   Large sewer system
-Monsters:    2 monsters
-Status:      Nearly complete — puzzles need connecting
+Aesthetic:   Large sewer maze — flooded sections, low visibility
+Monsters:    1 Brown Maynard + 1 Black creature
+Puzzle:      4 electric boxes + 4 keys → central generator
+Status:      Nearly complete — connection pending
 ```
 
 ### 🧟 Characters & Assets
@@ -230,13 +403,11 @@ Status:      Nearly complete — puzzles need connecting
 | Asset | Status | Notes |
 |---|---|---|
 | Survivor Characters | 🟡 In Progress | techwearOutfit exists |
-| Monster Lvl 0-1 | ⬜ | — |
-| Monster Lvl 2 (FROM) | ⬜ | — |
-| Monster Lvl 3 (Cave) | ⬜ | — |
-| Monster Lvl 4-A (Sewers) | ⬜ | — |
-| Monster Lvl 4-B (Sewers) | ⬜ | — |
-
----
+| Monster Lvl 0-1 (NightMare) | ⬜ | — |
+| Monster Lvl 1 (Joker + SCP096) | ⬜ | — |
+| Monster Lvl 2 (FROM creatures) | ⬜ | — |
+| Monster Lvl 3 (NightMare + Parasite) | ⬜ | — |
+| Monster Lvl 4 (Maynard x2) | ⬜ | — |
 
 ---
 
@@ -250,11 +421,11 @@ Lobby → Level 0 → Level 1 → Level 2 → Level 3 → Level 4
 ```
 
 - [ ] Travel from Lobby → Level 0
-- [ ] Travel Level 0 → Level 1 (on puzzle complete)
-- [ ] Travel Level 1 → Level 2 (on puzzle complete)
-- [ ] Travel Level 2 → Level 3 (on puzzle complete)
-- [ ] Travel Level 3 → Level 4 (on puzzle complete)
-- [ ] Win condition on Level 4 complete
+- [ ] Travel Level 0 → Level 1 (elevator — lever puzzle complete)
+- [ ] Travel Level 1 → Level 2 (all 5 puzzles complete)
+- [ ] Travel Level 2 → Level 3 (signal towers complete)
+- [ ] Travel Level 3 → Level 4 (all coal pits lit)
+- [ ] Win condition on Level 4 complete (generator + keys)
 
 ### 🔊 Audio / الصوت
 
@@ -287,8 +458,8 @@ Lobby → Level 0 → Level 1 → Level 2 → Level 3 → Level 4
 | `2026-05-14` | `v0.1` | Mohammed | Identified Road_1 folder as broken redirectors source |
 | `2026-05-14` | `v0.1` | Mohammed | Full GameInstance review — session logic ~70% wired |
 | `2026-05-14` | `v0.1` | Mohammed | WBP_MainWrapper review — navigation done, buttons not wired |
-| `2026-05-15` | `v0.1` | Mohammed | Full code review day — comments only, no coding - 🟡 In Progress |
-| '2026-05-16' | 'v0.1' | Mohammed | Rebuidng the core logic GI,GM and PS
+| `2026-05-15` | `v0.1` | Mohammed | Full code review day — comments only, no coding |
+| `2026-05-16` | `v0.1` | Mohammed | Rebuilt core architecture — GI, GM, GS, PS from scratch. SpawnPlayerCharacter, PostLogin, OnPlayerDied, CheckWinCondition complete. ServerTravel via AdvancedSessions. E_GamePhase and E_PlayerMode enums created. |
 
 ---
 
