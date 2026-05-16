@@ -288,6 +288,7 @@ Lobby → Level 0 → Level 1 → Level 2 → Level 3 → Level 4
 | `2026-05-14` | `v0.1` | Mohammed | Full GameInstance review — session logic ~70% wired |
 | `2026-05-14` | `v0.1` | Mohammed | WBP_MainWrapper review — navigation done, buttons not wired |
 | `2026-05-15` | `v0.1` | Mohammed | Full code review day — comments only, no coding - 🟡 In Progress |
+| '2026-05-16' | 'v0.1' | Mohammed | Rebuidng the core logic GI,GM and PS
 
 ---
 
@@ -298,7 +299,7 @@ Game Name:      Embrace the Chaos / عناق الفوضى
 Engine:         UE 5.6.1
 Epic Username:  W.O.L.F.Labs
 Project:        E:/Creating_Games/Unreal/ProjectChaos/
-Game Instance:  BP_ProjectChaosGameInstance
+Game Instance:  GI_EmbraceTheChoas
 Default Map:    StartUp
 Lobby Map:      /Game/DESIGN_Abdullah/Map/Lobby/Main/Lobby_Main.Lobby_Main
 Level 0:        /Game/DESIGN_Abdullah/Map/Main_Mpas/Level_0_TheMeeting/Level_01.Level_01
@@ -310,7 +311,6 @@ Level 4:        /Game/DESIGN_Abdullah/Map/Main_Mpas/Level_4_Sewers/L_Sewres.L_Se
 Plugins:
   ✅ Advanced Sessions
   ✅ EOS / Steam
-  ✅ ProjectCleaner — DISABLE (incompatible with 5.6)
 ```
 
 ---
